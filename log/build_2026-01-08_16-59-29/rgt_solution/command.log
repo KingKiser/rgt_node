@@ -1,0 +1,4 @@
+Invoking command in '/home/seonghwi/rgt_ws/build/rgt_solution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/seonghwi/.local/bin/cmake --build /home/seonghwi/rgt_ws/build/rgt_solution -- -j8 -l8
+Invoked command in '/home/seonghwi/rgt_ws/build/rgt_solution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/seonghwi/.local/bin/cmake --build /home/seonghwi/rgt_ws/build/rgt_solution -- -j8 -l8
+Invoking command in '/home/seonghwi/rgt_ws/build/rgt_solution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/seonghwi/.local/bin/cmake --install /home/seonghwi/rgt_ws/build/rgt_solution
+Invoked command in '/home/seonghwi/rgt_ws/build/rgt_solution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/seonghwi/.local/bin/cmake --install /home/seonghwi/rgt_ws/build/rgt_solution

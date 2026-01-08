@@ -1,0 +1,27 @@
+[0.013s] Invoking command in '/home/seonghwi/rgt_ws/build/rgt_solution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/seonghwi/.local/bin/cmake --build /home/seonghwi/rgt_ws/build/rgt_solution -- -j8 -l8
+[0.136s] [ 50%] [0mBuilt target main_3[0m
+[0.143s] [ 75%] [32mBuilding CXX object CMakeFiles/main_2.dir/src/main_2.cpp.o[0m
+[10.588s] [100%] [1m[32mLinking CXX executable main_2[0m
+[11.075s] [100%] [0mBuilt target main_2[0m
+[11.084s] Invoked command in '/home/seonghwi/rgt_ws/build/rgt_solution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/seonghwi/.local/bin/cmake --build /home/seonghwi/rgt_ws/build/rgt_solution -- -j8 -l8
+[11.204s] Invoking command in '/home/seonghwi/rgt_ws/build/rgt_solution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/seonghwi/.local/bin/cmake --install /home/seonghwi/rgt_ws/build/rgt_solution
+[11.309s] -- Install configuration: ""
+[11.310s] -- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/lib/rgt_solution/main_2
+[11.314s] -- Set non-toolchain portion of runtime path of "/home/seonghwi/rgt_ws/install/rgt_solution/lib/rgt_solution/main_2" to ""
+[11.315s] -- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/lib/rgt_solution/main_3
+[11.315s] -- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/ament_index/resource_index/package_run_dependencies/rgt_solution
+[11.315s] -- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/ament_index/resource_index/parent_prefix_path/rgt_solution
+[11.316s] -- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/environment/ament_prefix_path.sh
+[11.316s] -- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/environment/ament_prefix_path.dsv
+[11.316s] -- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/environment/path.sh
+[11.316s] -- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/environment/path.dsv
+[11.317s] -- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/local_setup.bash
+[11.317s] -- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/local_setup.sh
+[11.317s] -- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/local_setup.zsh
+[11.317s] -- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/local_setup.dsv
+[11.318s] -- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/package.dsv
+[11.319s] -- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/ament_index/resource_index/packages/rgt_solution
+[11.319s] -- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/cmake/rgt_solutionConfig.cmake
+[11.319s] -- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/cmake/rgt_solutionConfig-version.cmake
+[11.319s] -- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/package.xml
+[11.320s] Invoked command in '/home/seonghwi/rgt_ws/build/rgt_solution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/seonghwi/.local/bin/cmake --install /home/seonghwi/rgt_ws/build/rgt_solution

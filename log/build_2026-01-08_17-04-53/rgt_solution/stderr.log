@@ -1,0 +1,8 @@
+[01m[K/home/seonghwi/rgt_ws/src/rgt_solution/src/main_3.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Khead/ParallelProcessor.h: 그런 파일이나 디렉터리가 없습니다
+    8 | #include [01;31m[K"head/ParallelProcessor.h"[m[K // 기존 헤더 활용
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/main_3.dir/build.make:79: CMakeFiles/main_3.dir/src/main_3.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:188: CMakeFiles/main_3.dir/all] 오류 2
+gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+gmake: *** [Makefile:146: all] 오류 2

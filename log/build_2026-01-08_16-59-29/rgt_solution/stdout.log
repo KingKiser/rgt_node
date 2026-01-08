@@ -1,0 +1,23 @@
+[ 50%] [0mBuilt target main_3[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/main_2.dir/src/main_2.cpp.o[0m
+[100%] [1m[32mLinking CXX executable main_2[0m
+[100%] [0mBuilt target main_2[0m
+-- Install configuration: ""
+-- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/lib/rgt_solution/main_2
+-- Set non-toolchain portion of runtime path of "/home/seonghwi/rgt_ws/install/rgt_solution/lib/rgt_solution/main_2" to ""
+-- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/lib/rgt_solution/main_3
+-- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/ament_index/resource_index/package_run_dependencies/rgt_solution
+-- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/ament_index/resource_index/parent_prefix_path/rgt_solution
+-- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/environment/ament_prefix_path.sh
+-- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/environment/path.sh
+-- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/environment/path.dsv
+-- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/local_setup.bash
+-- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/local_setup.sh
+-- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/local_setup.zsh
+-- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/local_setup.dsv
+-- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/package.dsv
+-- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/ament_index/resource_index/packages/rgt_solution
+-- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/cmake/rgt_solutionConfig.cmake
+-- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/cmake/rgt_solutionConfig-version.cmake
+-- Up-to-date: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/package.xml

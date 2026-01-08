@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/seonghwi/rgt_ws/build/rgt_solution/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

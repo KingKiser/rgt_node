@@ -1,0 +1,178 @@
+[0.000000] (-) TimerEvent: {}
+[0.000693] (rgt_solution) JobQueued: {'identifier': 'rgt_solution', 'dependencies': OrderedDict()}
+[0.000899] (rgt_solution) JobStarted: {'identifier': 'rgt_solution'}
+[0.008347] (rgt_solution) JobProgress: {'identifier': 'rgt_solution', 'progress': 'cmake'}
+[0.008771] (rgt_solution) Command: {'cmd': ['/home/seonghwi/.local/bin/cmake', '/home/seonghwi/rgt_ws/src/rgt_solution', '-DCMAKE_INSTALL_PREFIX=/home/seonghwi/rgt_ws/install/rgt_solution'], 'cwd': '/home/seonghwi/rgt_ws/build/rgt_solution', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'seonghwi'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/seonghwi'), ('OLDPWD', '/home/seonghwi/rgt_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1437'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IPGHOME', '/opt/ipg'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'seonghwi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'seonghwi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/seonghwi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/ipg/bin'), ('SESSION_MANAGER', 'local/seonghwi-800G5H-800G5S:@/tmp/.ICE-unix/1392,unix/seonghwi-800G5H-800G5S:/tmp/.ICE-unix/1392'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/833ccaf6_8fa7_4b7d_81ad_69b2fe71a76b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KGH2H3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '50'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/seonghwi/rgt_ws/build/rgt_solution'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099262] (rgt_solution) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099720] (-) TimerEvent: {}
+[0.199946] (-) TimerEvent: {}
+[0.300229] (-) TimerEvent: {}
+[0.319668] (rgt_solution) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.369892] (rgt_solution) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.373326] (rgt_solution) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.383226] (rgt_solution) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.397317] (rgt_solution) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.400415] (-) TimerEvent: {}
+[0.416097] (rgt_solution) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.468356] (rgt_solution) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.470055] (rgt_solution) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500521] (-) TimerEvent: {}
+[0.600833] (-) TimerEvent: {}
+[0.606572] (rgt_solution) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.685749] (rgt_solution) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.700907] (-) TimerEvent: {}
+[0.736670] (rgt_solution) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.801025] (-) TimerEvent: {}
+[0.803999] (rgt_solution) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.804509] (rgt_solution) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/seonghwi/rgt_ws/src/rgt_solution/include;/home/seonghwi/rgt_ws/src/rgt_solution/rgt_solution/include/CircularBuffer;/home/seonghwi/rgt_ws/src/rgt_solution/rgt_solution/include/ParallelProcessor\n'}
+[0.804637] (rgt_solution) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.805288] (rgt_solution) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.806359] (rgt_solution) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.806645] (rgt_solution) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.806980] (rgt_solution) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.807842] (rgt_solution) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[0.824846] (rgt_solution) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.828855] (rgt_solution) StdoutLine: {'line': b'-- Build files have been written to: /home/seonghwi/rgt_ws/build/rgt_solution\n'}
+[0.838016] (rgt_solution) CommandEnded: {'returncode': 0}
+[0.838793] (rgt_solution) JobProgress: {'identifier': 'rgt_solution', 'progress': 'build'}
+[0.839571] (rgt_solution) Command: {'cmd': ['/home/seonghwi/.local/bin/cmake', '--build', '/home/seonghwi/rgt_ws/build/rgt_solution', '--', '-j8', '-l8'], 'cwd': '/home/seonghwi/rgt_ws/build/rgt_solution', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'seonghwi'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/seonghwi'), ('OLDPWD', '/home/seonghwi/rgt_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1437'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IPGHOME', '/opt/ipg'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'seonghwi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'seonghwi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/seonghwi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/ipg/bin'), ('SESSION_MANAGER', 'local/seonghwi-800G5H-800G5S:@/tmp/.ICE-unix/1392,unix/seonghwi-800G5H-800G5S:/tmp/.ICE-unix/1392'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/833ccaf6_8fa7_4b7d_81ad_69b2fe71a76b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KGH2H3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '50'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/seonghwi/rgt_ws/build/rgt_solution'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.901146] (-) TimerEvent: {}
+[0.942161] (rgt_solution) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/main_2.dir/src/main_2.cpp.o\x1b[0m\n'}
+[0.942437] (rgt_solution) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/main_3.dir/src/main_3.cpp.o\x1b[0m\n'}
+[1.001255] (-) TimerEvent: {}
+[1.101668] (-) TimerEvent: {}
+[1.202033] (-) TimerEvent: {}
+[1.302418] (-) TimerEvent: {}
+[1.402836] (-) TimerEvent: {}
+[1.503210] (-) TimerEvent: {}
+[1.603596] (-) TimerEvent: {}
+[1.703971] (-) TimerEvent: {}
+[1.804293] (-) TimerEvent: {}
+[1.904685] (-) TimerEvent: {}
+[2.005122] (-) TimerEvent: {}
+[2.105503] (-) TimerEvent: {}
+[2.205860] (-) TimerEvent: {}
+[2.306271] (-) TimerEvent: {}
+[2.406609] (-) TimerEvent: {}
+[2.506940] (-) TimerEvent: {}
+[2.607289] (-) TimerEvent: {}
+[2.707637] (-) TimerEvent: {}
+[2.807987] (-) TimerEvent: {}
+[2.908320] (-) TimerEvent: {}
+[3.008654] (-) TimerEvent: {}
+[3.109008] (-) TimerEvent: {}
+[3.209330] (-) TimerEvent: {}
+[3.309663] (-) TimerEvent: {}
+[3.410028] (-) TimerEvent: {}
+[3.510371] (-) TimerEvent: {}
+[3.610718] (-) TimerEvent: {}
+[3.711054] (-) TimerEvent: {}
+[3.811387] (-) TimerEvent: {}
+[3.911749] (-) TimerEvent: {}
+[4.012100] (-) TimerEvent: {}
+[4.112454] (-) TimerEvent: {}
+[4.212788] (-) TimerEvent: {}
+[4.313115] (-) TimerEvent: {}
+[4.413478] (-) TimerEvent: {}
+[4.513790] (-) TimerEvent: {}
+[4.614096] (-) TimerEvent: {}
+[4.714418] (-) TimerEvent: {}
+[4.814741] (-) TimerEvent: {}
+[4.915039] (-) TimerEvent: {}
+[5.015362] (-) TimerEvent: {}
+[5.115688] (-) TimerEvent: {}
+[5.215984] (-) TimerEvent: {}
+[5.316294] (-) TimerEvent: {}
+[5.416612] (-) TimerEvent: {}
+[5.516920] (-) TimerEvent: {}
+[5.617241] (-) TimerEvent: {}
+[5.717571] (-) TimerEvent: {}
+[5.817825] (-) TimerEvent: {}
+[5.918133] (-) TimerEvent: {}
+[6.018397] (-) TimerEvent: {}
+[6.118736] (-) TimerEvent: {}
+[6.218995] (-) TimerEvent: {}
+[6.319293] (-) TimerEvent: {}
+[6.419600] (-) TimerEvent: {}
+[6.519900] (-) TimerEvent: {}
+[6.620222] (-) TimerEvent: {}
+[6.720541] (-) TimerEvent: {}
+[6.820818] (-) TimerEvent: {}
+[6.921115] (-) TimerEvent: {}
+[7.021427] (-) TimerEvent: {}
+[7.121742] (-) TimerEvent: {}
+[7.222044] (-) TimerEvent: {}
+[7.322355] (-) TimerEvent: {}
+[7.422642] (-) TimerEvent: {}
+[7.522953] (-) TimerEvent: {}
+[7.623296] (-) TimerEvent: {}
+[7.723627] (-) TimerEvent: {}
+[7.823943] (-) TimerEvent: {}
+[7.924264] (-) TimerEvent: {}
+[8.024607] (-) TimerEvent: {}
+[8.124912] (-) TimerEvent: {}
+[8.225250] (-) TimerEvent: {}
+[8.325576] (-) TimerEvent: {}
+[8.425871] (-) TimerEvent: {}
+[8.526155] (-) TimerEvent: {}
+[8.626442] (-) TimerEvent: {}
+[8.726777] (-) TimerEvent: {}
+[8.827063] (-) TimerEvent: {}
+[8.927385] (-) TimerEvent: {}
+[9.027716] (-) TimerEvent: {}
+[9.128063] (-) TimerEvent: {}
+[9.228390] (-) TimerEvent: {}
+[9.328735] (-) TimerEvent: {}
+[9.429043] (-) TimerEvent: {}
+[9.529360] (-) TimerEvent: {}
+[9.629661] (-) TimerEvent: {}
+[9.729951] (-) TimerEvent: {}
+[9.830273] (-) TimerEvent: {}
+[9.930593] (-) TimerEvent: {}
+[10.030928] (-) TimerEvent: {}
+[10.131255] (-) TimerEvent: {}
+[10.231571] (-) TimerEvent: {}
+[10.331908] (-) TimerEvent: {}
+[10.432215] (-) TimerEvent: {}
+[10.532496] (-) TimerEvent: {}
+[10.608857] (rgt_solution) StdoutLine: {'line': b'[ 75%] \x1b[1m\x1b[32mLinking CXX executable main_2\x1b[0m\n'}
+[10.632628] (-) TimerEvent: {}
+[10.732968] (-) TimerEvent: {}
+[10.833252] (-) TimerEvent: {}
+[10.933578] (-) TimerEvent: {}
+[10.972381] (rgt_solution) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking CXX executable main_3\x1b[0m\n'}
+[11.033713] (-) TimerEvent: {}
+[11.109029] (rgt_solution) StdoutLine: {'line': b'[100%] \x1b[0mBuilt target main_2\x1b[0m\n'}
+[11.133836] (-) TimerEvent: {}
+[11.234154] (-) TimerEvent: {}
+[11.334467] (-) TimerEvent: {}
+[11.434759] (-) TimerEvent: {}
+[11.468700] (rgt_solution) StdoutLine: {'line': b'[100%] \x1b[0mBuilt target main_3\x1b[0m\n'}
+[11.477026] (rgt_solution) CommandEnded: {'returncode': 0}
+[11.478239] (rgt_solution) JobProgress: {'identifier': 'rgt_solution', 'progress': 'install'}
+[11.534883] (-) TimerEvent: {}
+[11.578030] (rgt_solution) Command: {'cmd': ['/home/seonghwi/.local/bin/cmake', '--install', '/home/seonghwi/rgt_ws/build/rgt_solution'], 'cwd': '/home/seonghwi/rgt_ws/build/rgt_solution', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'seonghwi'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/seonghwi'), ('OLDPWD', '/home/seonghwi/rgt_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1437'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IPGHOME', '/opt/ipg'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'seonghwi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'seonghwi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/seonghwi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/ipg/bin'), ('SESSION_MANAGER', 'local/seonghwi-800G5H-800G5S:@/tmp/.ICE-unix/1392,unix/seonghwi-800G5H-800G5S:/tmp/.ICE-unix/1392'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/833ccaf6_8fa7_4b7d_81ad_69b2fe71a76b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KGH2H3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '50'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/seonghwi/rgt_ws/build/rgt_solution'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.634974] (-) TimerEvent: {}
+[11.674938] (rgt_solution) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.675217] (rgt_solution) StdoutLine: {'line': b'-- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/lib/rgt_solution/main_2\n'}
+[11.678829] (rgt_solution) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/seonghwi/rgt_ws/install/rgt_solution/lib/rgt_solution/main_2" to ""\n'}
+[11.679061] (rgt_solution) StdoutLine: {'line': b'-- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/lib/rgt_solution/main_3\n'}
+[11.682811] (rgt_solution) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/seonghwi/rgt_ws/install/rgt_solution/lib/rgt_solution/main_3" to ""\n'}
+[11.683089] (rgt_solution) StdoutLine: {'line': b'-- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/ament_index/resource_index/package_run_dependencies/rgt_solution\n'}
+[11.683324] (rgt_solution) StdoutLine: {'line': b'-- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/ament_index/resource_index/parent_prefix_path/rgt_solution\n'}
+[11.683511] (rgt_solution) StdoutLine: {'line': b'-- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/environment/ament_prefix_path.sh\n'}
+[11.683649] (rgt_solution) StdoutLine: {'line': b'-- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/environment/ament_prefix_path.dsv\n'}
+[11.683825] (rgt_solution) StdoutLine: {'line': b'-- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/environment/path.sh\n'}
+[11.683967] (rgt_solution) StdoutLine: {'line': b'-- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/environment/path.dsv\n'}
+[11.684142] (rgt_solution) StdoutLine: {'line': b'-- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/local_setup.bash\n'}
+[11.684294] (rgt_solution) StdoutLine: {'line': b'-- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/local_setup.sh\n'}
+[11.684429] (rgt_solution) StdoutLine: {'line': b'-- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/local_setup.zsh\n'}
+[11.684593] (rgt_solution) StdoutLine: {'line': b'-- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/local_setup.dsv\n'}
+[11.684720] (rgt_solution) StdoutLine: {'line': b'-- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/package.dsv\n'}
+[11.684887] (rgt_solution) StdoutLine: {'line': b'-- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/ament_index/resource_index/packages/rgt_solution\n'}
+[11.685038] (rgt_solution) StdoutLine: {'line': b'-- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/cmake/rgt_solutionConfig.cmake\n'}
+[11.685205] (rgt_solution) StdoutLine: {'line': b'-- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/cmake/rgt_solutionConfig-version.cmake\n'}
+[11.685360] (rgt_solution) StdoutLine: {'line': b'-- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/package.xml\n'}
+[11.687214] (rgt_solution) CommandEnded: {'returncode': 0}
+[11.713175] (rgt_solution) JobEnded: {'identifier': 'rgt_solution', 'rc': 0}
+[11.713988] (-) EventReactorShutdown: {}

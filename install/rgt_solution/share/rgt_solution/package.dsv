@@ -1,0 +1,8 @@
+source;share/rgt_solution/hook/cmake_prefix_path.ps1
+source;share/rgt_solution/hook/cmake_prefix_path.dsv
+source;share/rgt_solution/hook/cmake_prefix_path.sh
+source;share/rgt_solution/local_setup.bash
+source;share/rgt_solution/local_setup.dsv
+source;share/rgt_solution/local_setup.ps1
+source;share/rgt_solution/local_setup.sh
+source;share/rgt_solution/local_setup.zsh
