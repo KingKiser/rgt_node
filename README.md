@@ -8,6 +8,8 @@ ros2 run rgt_solution main_3
 
 입니다.
 
-main2는 터미널을 따로 켜서 수동으로 ros2 topic pub /raw_temperature std_msgs/msg/Float64 "{data: 26.1}" 토픽을 송출하면 됩니다
+main_2는 터미널을 따로 켜서 수동으로 ros2 topic pub /raw_temperature std_msgs/msg/Float64 "{data: 26.1}" 토픽을 송출하면 됩니다
+
+main1_은 어차피 로그 만들기이고 ros2는 이미 로그 시스템이 있어서 굳이 올리지 않았습니다.
 
 감사합니다
