@@ -1,0 +1,37 @@
+[0.904s] Invoking command in '/home/seonghwi/rgt_ws/src/rgt_py': PYTHONPATH=/home/seonghwi/rgt_ws/build/rgt_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seonghwi/rgt_ws/install/rgt_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rgt_py build --build-base /home/seonghwi/rgt_ws/build/rgt_py/build install --record /home/seonghwi/rgt_ws/build/rgt_py/install.log --single-version-externally-managed install_data
+[1.234s] running egg_info
+[1.234s] creating ../../build/rgt_py/rgt_py.egg-info
+[1.234s] writing ../../build/rgt_py/rgt_py.egg-info/PKG-INFO
+[1.235s] writing dependency_links to ../../build/rgt_py/rgt_py.egg-info/dependency_links.txt
+[1.235s] writing entry points to ../../build/rgt_py/rgt_py.egg-info/entry_points.txt
+[1.235s] writing requirements to ../../build/rgt_py/rgt_py.egg-info/requires.txt
+[1.235s] writing top-level names to ../../build/rgt_py/rgt_py.egg-info/top_level.txt
+[1.235s] writing manifest file '../../build/rgt_py/rgt_py.egg-info/SOURCES.txt'
+[1.237s] reading manifest file '../../build/rgt_py/rgt_py.egg-info/SOURCES.txt'
+[1.238s] writing manifest file '../../build/rgt_py/rgt_py.egg-info/SOURCES.txt'
+[1.238s] running build
+[1.239s] running build_py
+[1.239s] creating /home/seonghwi/rgt_ws/build/rgt_py/build
+[1.239s] creating /home/seonghwi/rgt_ws/build/rgt_py/build/lib
+[1.239s] creating /home/seonghwi/rgt_ws/build/rgt_py/build/lib/rgt_py
+[1.239s] copying rgt_py/py_pub.py -> /home/seonghwi/rgt_ws/build/rgt_py/build/lib/rgt_py
+[1.239s] copying rgt_py/__init__.py -> /home/seonghwi/rgt_ws/build/rgt_py/build/lib/rgt_py
+[1.239s] running install
+[1.239s] running install_lib
+[1.240s] creating /home/seonghwi/rgt_ws/install/rgt_py/lib/python3.10/site-packages/rgt_py
+[1.240s] copying /home/seonghwi/rgt_ws/build/rgt_py/build/lib/rgt_py/py_pub.py -> /home/seonghwi/rgt_ws/install/rgt_py/lib/python3.10/site-packages/rgt_py
+[1.240s] copying /home/seonghwi/rgt_ws/build/rgt_py/build/lib/rgt_py/__init__.py -> /home/seonghwi/rgt_ws/install/rgt_py/lib/python3.10/site-packages/rgt_py
+[1.241s] byte-compiling /home/seonghwi/rgt_ws/install/rgt_py/lib/python3.10/site-packages/rgt_py/py_pub.py to py_pub.cpython-310.pyc
+[1.241s] byte-compiling /home/seonghwi/rgt_ws/install/rgt_py/lib/python3.10/site-packages/rgt_py/__init__.py to __init__.cpython-310.pyc
+[1.242s] running install_data
+[1.242s] creating /home/seonghwi/rgt_ws/install/rgt_py/share/ament_index
+[1.242s] creating /home/seonghwi/rgt_ws/install/rgt_py/share/ament_index/resource_index
+[1.242s] creating /home/seonghwi/rgt_ws/install/rgt_py/share/ament_index/resource_index/packages
+[1.242s] copying resource/rgt_py -> /home/seonghwi/rgt_ws/install/rgt_py/share/ament_index/resource_index/packages
+[1.242s] copying package.xml -> /home/seonghwi/rgt_ws/install/rgt_py/share/rgt_py
+[1.242s] running install_egg_info
+[1.245s] Copying ../../build/rgt_py/rgt_py.egg-info to /home/seonghwi/rgt_ws/install/rgt_py/lib/python3.10/site-packages/rgt_py-0.0.0-py3.10.egg-info
+[1.245s] running install_scripts
+[1.266s] Installing rgt_py script to /home/seonghwi/rgt_ws/install/rgt_py/lib/rgt_py
+[1.266s] writing list of installed files to '/home/seonghwi/rgt_ws/build/rgt_py/install.log'
+[1.297s] Invoked command in '/home/seonghwi/rgt_ws/src/rgt_py' returned '0': PYTHONPATH=/home/seonghwi/rgt_ws/build/rgt_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seonghwi/rgt_ws/install/rgt_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rgt_py build --build-base /home/seonghwi/rgt_ws/build/rgt_py/build install --record /home/seonghwi/rgt_ws/build/rgt_py/install.log --single-version-externally-managed install_data

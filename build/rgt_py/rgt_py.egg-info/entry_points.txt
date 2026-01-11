@@ -1,0 +1,3 @@
+[console_scripts]
+rgt_py = rgt_py.py_pub:main
+

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/rgt_py/rgt_py.egg-info
+writing ../../build/rgt_py/rgt_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/rgt_py/rgt_py.egg-info/dependency_links.txt
+writing entry points to ../../build/rgt_py/rgt_py.egg-info/entry_points.txt
+writing requirements to ../../build/rgt_py/rgt_py.egg-info/requires.txt
+writing top-level names to ../../build/rgt_py/rgt_py.egg-info/top_level.txt
+writing manifest file '../../build/rgt_py/rgt_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/rgt_py/rgt_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/rgt_py/rgt_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/seonghwi/rgt_ws/build/rgt_py/build
+creating /home/seonghwi/rgt_ws/build/rgt_py/build/lib
+creating /home/seonghwi/rgt_ws/build/rgt_py/build/lib/rgt_py
+copying rgt_py/py_pub.py -> /home/seonghwi/rgt_ws/build/rgt_py/build/lib/rgt_py
+copying rgt_py/__init__.py -> /home/seonghwi/rgt_ws/build/rgt_py/build/lib/rgt_py
+running install
+running install_lib
+creating /home/seonghwi/rgt_ws/install/rgt_py/lib/python3.10/site-packages/rgt_py
+copying /home/seonghwi/rgt_ws/build/rgt_py/build/lib/rgt_py/py_pub.py -> /home/seonghwi/rgt_ws/install/rgt_py/lib/python3.10/site-packages/rgt_py
+copying /home/seonghwi/rgt_ws/build/rgt_py/build/lib/rgt_py/__init__.py -> /home/seonghwi/rgt_ws/install/rgt_py/lib/python3.10/site-packages/rgt_py
+byte-compiling /home/seonghwi/rgt_ws/install/rgt_py/lib/python3.10/site-packages/rgt_py/py_pub.py to py_pub.cpython-310.pyc
+byte-compiling /home/seonghwi/rgt_ws/install/rgt_py/lib/python3.10/site-packages/rgt_py/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/seonghwi/rgt_ws/install/rgt_py/share/ament_index
+creating /home/seonghwi/rgt_ws/install/rgt_py/share/ament_index/resource_index
+creating /home/seonghwi/rgt_ws/install/rgt_py/share/ament_index/resource_index/packages
+copying resource/rgt_py -> /home/seonghwi/rgt_ws/install/rgt_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/seonghwi/rgt_ws/install/rgt_py/share/rgt_py
+running install_egg_info
+Copying ../../build/rgt_py/rgt_py.egg-info to /home/seonghwi/rgt_ws/install/rgt_py/lib/python3.10/site-packages/rgt_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rgt_py script to /home/seonghwi/rgt_ws/install/rgt_py/lib/rgt_py
+writing list of installed files to '/home/seonghwi/rgt_ws/build/rgt_py/install.log'

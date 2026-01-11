@@ -1,0 +1,192 @@
+[0.142s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.142s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70cb85dde9e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70cb85dde110>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70cb85dde110>>, mixin_verb=('build',))
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.384s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/seonghwi/rgt_ws'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgt_py) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgt_py) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgt_py) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgt_py) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgt_py) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgt_py) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgt_py) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgt_py) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgt_py) by extension 'ros'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rgt_py' with type 'ros.ament_python' and name 'rgt_py'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgt_solution) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgt_solution) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgt_solution) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgt_solution) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgt_solution) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgt_solution) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgt_solution) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgt_solution) by extensions ['ros']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgt_solution) by extension 'ros'
+[0.402s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rgt_solution' with type 'ros.ament_cmake' and name 'rgt_solution'
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.424s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 342 installed packages in /opt/ros/humble
+[0.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'rgt_py' build argument 'cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'rgt_py' build argument 'cmake_target' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'rgt_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'rgt_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'rgt_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'rgt_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'rgt_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'rgt_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'rgt_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.468s] DEBUG:colcon.colcon_core.verb:Building package 'rgt_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seonghwi/rgt_ws/build/rgt_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seonghwi/rgt_ws/install/rgt_py', 'merge_install': False, 'path': '/home/seonghwi/rgt_ws/src/rgt_py', 'symlink_install': False, 'test_result_base': None}
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'rgt_solution' build argument 'cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'rgt_solution' build argument 'cmake_target' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'rgt_solution' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'rgt_solution' build argument 'cmake_clean_cache' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'rgt_solution' build argument 'cmake_clean_first' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'rgt_solution' build argument 'cmake_force_configure' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'rgt_solution' build argument 'ament_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'rgt_solution' build argument 'catkin_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'rgt_solution' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.468s] DEBUG:colcon.colcon_core.verb:Building package 'rgt_solution' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seonghwi/rgt_ws/build/rgt_solution', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seonghwi/rgt_ws/install/rgt_solution', 'merge_install': False, 'path': '/home/seonghwi/rgt_ws/src/rgt_solution', 'symlink_install': False, 'test_result_base': None}
+[0.469s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.470s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.470s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/seonghwi/rgt_ws/src/rgt_py' with build type 'ament_python'
+[0.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('rgt_py', 'ament_prefix_path')
+[0.472s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seonghwi/rgt_ws/install/rgt_py/share/rgt_py/hook/ament_prefix_path.ps1'
+[0.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seonghwi/rgt_ws/install/rgt_py/share/rgt_py/hook/ament_prefix_path.dsv'
+[0.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seonghwi/rgt_ws/install/rgt_py/share/rgt_py/hook/ament_prefix_path.sh'
+[0.474s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.475s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.477s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/seonghwi/rgt_ws/src/rgt_solution' with build type 'ament_cmake'
+[0.478s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/seonghwi/rgt_ws/src/rgt_solution'
+[0.478s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.478s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.814s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/seonghwi/rgt_ws/src/rgt_py'
+[0.815s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.815s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seonghwi/rgt_ws/build/rgt_solution': CMAKE_PREFIX_PATH=/opt/ros/humble /home/seonghwi/.local/bin/cmake /home/seonghwi/rgt_ws/src/rgt_solution -DCMAKE_INSTALL_PREFIX=/home/seonghwi/rgt_ws/install/rgt_solution
+[1.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seonghwi/rgt_ws/src/rgt_py': PYTHONPATH=/home/seonghwi/rgt_ws/build/rgt_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seonghwi/rgt_ws/install/rgt_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rgt_py build --build-base /home/seonghwi/rgt_ws/build/rgt_py/build install --record /home/seonghwi/rgt_ws/build/rgt_py/install.log --single-version-externally-managed install_data
+[1.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seonghwi/rgt_ws/src/rgt_py' returned '0': PYTHONPATH=/home/seonghwi/rgt_ws/build/rgt_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seonghwi/rgt_ws/install/rgt_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rgt_py build --build-base /home/seonghwi/rgt_ws/build/rgt_py/build install --record /home/seonghwi/rgt_ws/build/rgt_py/install.log --single-version-externally-managed install_data
+[1.771s] Level 1:colcon.colcon_core.environment:checking '/home/seonghwi/rgt_ws/install/rgt_py' for CMake module files
+[1.771s] Level 1:colcon.colcon_core.environment:checking '/home/seonghwi/rgt_ws/install/rgt_py' for CMake config files
+[1.772s] Level 1:colcon.colcon_core.environment:checking '/home/seonghwi/rgt_ws/install/rgt_py/lib'
+[1.772s] Level 1:colcon.colcon_core.environment:checking '/home/seonghwi/rgt_ws/install/rgt_py/bin'
+[1.772s] Level 1:colcon.colcon_core.environment:checking '/home/seonghwi/rgt_ws/install/rgt_py/lib/pkgconfig/rgt_py.pc'
+[1.773s] Level 1:colcon.colcon_core.environment:checking '/home/seonghwi/rgt_ws/install/rgt_py/lib/python3.10/site-packages'
+[1.773s] Level 1:colcon.colcon_core.shell:create_environment_hook('rgt_py', 'pythonpath')
+[1.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seonghwi/rgt_ws/install/rgt_py/share/rgt_py/hook/pythonpath.ps1'
+[1.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seonghwi/rgt_ws/install/rgt_py/share/rgt_py/hook/pythonpath.dsv'
+[1.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seonghwi/rgt_ws/install/rgt_py/share/rgt_py/hook/pythonpath.sh'
+[1.774s] Level 1:colcon.colcon_core.environment:checking '/home/seonghwi/rgt_ws/install/rgt_py/bin'
+[1.775s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rgt_py)
+[1.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/seonghwi/rgt_ws/install/rgt_py/share/rgt_py/package.ps1'
+[1.776s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seonghwi/rgt_ws/install/rgt_py/share/rgt_py/package.dsv'
+[1.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/seonghwi/rgt_ws/install/rgt_py/share/rgt_py/package.sh'
+[1.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/seonghwi/rgt_ws/install/rgt_py/share/rgt_py/package.bash'
+[1.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/seonghwi/rgt_ws/install/rgt_py/share/rgt_py/package.zsh'
+[1.779s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seonghwi/rgt_ws/install/rgt_py/share/colcon-core/packages/rgt_py)
+[2.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seonghwi/rgt_ws/build/rgt_solution' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/seonghwi/.local/bin/cmake /home/seonghwi/rgt_ws/src/rgt_solution -DCMAKE_INSTALL_PREFIX=/home/seonghwi/rgt_ws/install/rgt_solution
+[2.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seonghwi/rgt_ws/build/rgt_solution': CMAKE_PREFIX_PATH=/opt/ros/humble /home/seonghwi/.local/bin/cmake --build /home/seonghwi/rgt_ws/build/rgt_solution -- -j8 -l8
+[10.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seonghwi/rgt_ws/build/rgt_solution' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/seonghwi/.local/bin/cmake --build /home/seonghwi/rgt_ws/build/rgt_solution -- -j8 -l8
+[10.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seonghwi/rgt_ws/build/rgt_solution': CMAKE_PREFIX_PATH=/opt/ros/humble /home/seonghwi/.local/bin/cmake --install /home/seonghwi/rgt_ws/build/rgt_solution
+[10.705s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rgt_solution)
+[10.705s] Level 1:colcon.colcon_core.environment:checking '/home/seonghwi/rgt_ws/install/rgt_solution' for CMake module files
+[10.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seonghwi/rgt_ws/build/rgt_solution' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/seonghwi/.local/bin/cmake --install /home/seonghwi/rgt_ws/build/rgt_solution
+[10.706s] Level 1:colcon.colcon_core.environment:checking '/home/seonghwi/rgt_ws/install/rgt_solution' for CMake config files
+[10.706s] Level 1:colcon.colcon_core.shell:create_environment_hook('rgt_solution', 'cmake_prefix_path')
+[10.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/hook/cmake_prefix_path.ps1'
+[10.707s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/hook/cmake_prefix_path.dsv'
+[10.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/hook/cmake_prefix_path.sh'
+[10.708s] Level 1:colcon.colcon_core.environment:checking '/home/seonghwi/rgt_ws/install/rgt_solution/lib'
+[10.708s] Level 1:colcon.colcon_core.environment:checking '/home/seonghwi/rgt_ws/install/rgt_solution/bin'
+[10.708s] Level 1:colcon.colcon_core.environment:checking '/home/seonghwi/rgt_ws/install/rgt_solution/lib/pkgconfig/rgt_solution.pc'
+[10.709s] Level 1:colcon.colcon_core.environment:checking '/home/seonghwi/rgt_ws/install/rgt_solution/lib/python3.10/site-packages'
+[10.709s] Level 1:colcon.colcon_core.environment:checking '/home/seonghwi/rgt_ws/install/rgt_solution/bin'
+[10.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/package.ps1'
+[10.710s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/package.dsv'
+[10.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/package.sh'
+[10.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/package.bash'
+[10.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/package.zsh'
+[10.711s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seonghwi/rgt_ws/install/rgt_solution/share/colcon-core/packages/rgt_solution)
+[10.712s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rgt_solution)
+[10.712s] Level 1:colcon.colcon_core.environment:checking '/home/seonghwi/rgt_ws/install/rgt_solution' for CMake module files
+[10.712s] Level 1:colcon.colcon_core.environment:checking '/home/seonghwi/rgt_ws/install/rgt_solution' for CMake config files
+[10.713s] Level 1:colcon.colcon_core.shell:create_environment_hook('rgt_solution', 'cmake_prefix_path')
+[10.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/hook/cmake_prefix_path.ps1'
+[10.713s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/hook/cmake_prefix_path.dsv'
+[10.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/hook/cmake_prefix_path.sh'
+[10.714s] Level 1:colcon.colcon_core.environment:checking '/home/seonghwi/rgt_ws/install/rgt_solution/lib'
+[10.714s] Level 1:colcon.colcon_core.environment:checking '/home/seonghwi/rgt_ws/install/rgt_solution/bin'
+[10.714s] Level 1:colcon.colcon_core.environment:checking '/home/seonghwi/rgt_ws/install/rgt_solution/lib/pkgconfig/rgt_solution.pc'
+[10.714s] Level 1:colcon.colcon_core.environment:checking '/home/seonghwi/rgt_ws/install/rgt_solution/lib/python3.10/site-packages'
+[10.715s] Level 1:colcon.colcon_core.environment:checking '/home/seonghwi/rgt_ws/install/rgt_solution/bin'
+[10.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/package.ps1'
+[10.715s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/package.dsv'
+[10.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/package.sh'
+[10.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/package.bash'
+[10.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/package.zsh'
+[10.717s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seonghwi/rgt_ws/install/rgt_solution/share/colcon-core/packages/rgt_solution)
+[10.718s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.718s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.718s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.718s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.723s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.723s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.723s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.735s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.736s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seonghwi/rgt_ws/install/local_setup.ps1'
+[10.737s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/seonghwi/rgt_ws/install/_local_setup_util_ps1.py'
+[10.738s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seonghwi/rgt_ws/install/setup.ps1'
+[10.739s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seonghwi/rgt_ws/install/local_setup.sh'
+[10.740s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/seonghwi/rgt_ws/install/_local_setup_util_sh.py'
+[10.741s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seonghwi/rgt_ws/install/setup.sh'
+[10.742s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seonghwi/rgt_ws/install/local_setup.bash'
+[10.742s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seonghwi/rgt_ws/install/setup.bash'
+[10.743s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seonghwi/rgt_ws/install/local_setup.zsh'
+[10.744s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seonghwi/rgt_ws/install/setup.zsh'

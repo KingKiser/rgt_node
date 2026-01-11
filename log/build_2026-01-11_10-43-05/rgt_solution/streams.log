@@ -1,0 +1,72 @@
+[0.343s] Invoking command in '/home/seonghwi/rgt_ws/build/rgt_solution': CMAKE_PREFIX_PATH=/opt/ros/humble /home/seonghwi/.local/bin/cmake /home/seonghwi/rgt_ws/src/rgt_solution -DCMAKE_INSTALL_PREFIX=/home/seonghwi/rgt_ws/install/rgt_solution
+[0.474s] -- The C compiler identification is GNU 11.4.0
+[0.549s] -- The CXX compiler identification is GNU 11.4.0
+[0.559s] -- Detecting C compiler ABI info
+[0.618s] -- Detecting C compiler ABI info - done
+[0.638s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.638s] -- Detecting C compile features
+[0.639s] -- Detecting C compile features - done
+[0.652s] -- Detecting CXX compiler ABI info
+[0.726s] -- Detecting CXX compiler ABI info - done
+[0.745s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.745s] -- Detecting CXX compile features
+[0.746s] -- Detecting CXX compile features - done
+[0.755s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.907s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.009s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.070s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.076s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.089s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.108s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.134s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.202s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.205s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.316s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.358s] -- Found FastRTPS: /opt/ros/humble/include
+[1.412s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.423s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.486s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.488s] -- Found Threads: TRUE
+[1.584s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.638s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.721s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.722s] -- Configured cppcheck include dirs: /home/seonghwi/rgt_ws/src/rgt_solution/include;/home/seonghwi/rgt_ws/src/rgt_solution/rgt_solution/include/CircularBuffer;/home/seonghwi/rgt_ws/src/rgt_solution/rgt_solution/include/ParallelProcessor
+[1.722s] -- Configured cppcheck exclude dirs and/or files: 
+[1.724s] -- Added test 'lint_cmake' to check CMake code style
+[1.726s] -- Added test 'uncrustify' to check C / C++ code style
+[1.726s] -- Configured uncrustify additional arguments: 
+[1.727s] -- Added test 'xmllint' to check XML markup files
+[1.729s] -- Configuring done (1.3s)
+[1.751s] -- Generating done (0.0s)
+[1.757s] -- Build files have been written to: /home/seonghwi/rgt_ws/build/rgt_solution
+[1.769s] Invoked command in '/home/seonghwi/rgt_ws/build/rgt_solution' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/seonghwi/.local/bin/cmake /home/seonghwi/rgt_ws/src/rgt_solution -DCMAKE_INSTALL_PREFIX=/home/seonghwi/rgt_ws/install/rgt_solution
+[1.772s] Invoking command in '/home/seonghwi/rgt_ws/build/rgt_solution': CMAKE_PREFIX_PATH=/opt/ros/humble /home/seonghwi/.local/bin/cmake --build /home/seonghwi/rgt_ws/build/rgt_solution -- -j8 -l8
+[1.871s] [ 25%] [32mBuilding CXX object CMakeFiles/main_2.dir/src/main_2.cpp.o[0m
+[1.871s] [ 50%] [32mBuilding CXX object CMakeFiles/main_3.dir/src/main_3.cpp.o[0m
+[5.083s] [ 75%] [1m[32mLinking CXX executable main_3[0m
+[5.222s] [ 75%] [0mBuilt target main_3[0m
+[9.677s] [100%] [1m[32mLinking CXX executable main_2[0m
+[10.052s] [100%] [0mBuilt target main_2[0m
+[10.061s] Invoked command in '/home/seonghwi/rgt_ws/build/rgt_solution' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/seonghwi/.local/bin/cmake --build /home/seonghwi/rgt_ws/build/rgt_solution -- -j8 -l8
+[10.139s] Invoking command in '/home/seonghwi/rgt_ws/build/rgt_solution': CMAKE_PREFIX_PATH=/opt/ros/humble /home/seonghwi/.local/bin/cmake --install /home/seonghwi/rgt_ws/build/rgt_solution
+[10.218s] -- Install configuration: ""
+[10.218s] -- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/lib/rgt_solution/main_2
+[10.221s] -- Set non-toolchain portion of runtime path of "/home/seonghwi/rgt_ws/install/rgt_solution/lib/rgt_solution/main_2" to ""
+[10.221s] -- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/lib/rgt_solution/main_3
+[10.222s] -- Set non-toolchain portion of runtime path of "/home/seonghwi/rgt_ws/install/rgt_solution/lib/rgt_solution/main_3" to ""
+[10.222s] -- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/ament_index/resource_index/package_run_dependencies/rgt_solution
+[10.223s] -- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/ament_index/resource_index/parent_prefix_path/rgt_solution
+[10.223s] -- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/environment/ament_prefix_path.sh
+[10.223s] -- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/environment/ament_prefix_path.dsv
+[10.223s] -- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/environment/path.sh
+[10.223s] -- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/environment/path.dsv
+[10.223s] -- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/local_setup.bash
+[10.224s] -- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/local_setup.sh
+[10.224s] -- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/local_setup.zsh
+[10.224s] -- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/local_setup.dsv
+[10.224s] -- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/package.dsv
+[10.224s] -- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/ament_index/resource_index/packages/rgt_solution
+[10.225s] -- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/cmake/rgt_solutionConfig.cmake
+[10.225s] -- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/cmake/rgt_solutionConfig-version.cmake
+[10.225s] -- Installing: /home/seonghwi/rgt_ws/install/rgt_solution/share/rgt_solution/package.xml
+[10.227s] Invoked command in '/home/seonghwi/rgt_ws/build/rgt_solution' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/seonghwi/.local/bin/cmake --install /home/seonghwi/rgt_ws/build/rgt_solution

@@ -1,2 +1,0 @@
-Invoking command in '/home/seonghwi/rgt_ws/build/rgt_solution': CMAKE_PREFIX_PATH=/opt/ros/humble /home/seonghwi/.local/bin/cmake /home/seonghwi/rgt_ws/src/rgt_solution -DCMAKE_INSTALL_PREFIX=/home/seonghwi/rgt_ws/install/rgt_solution
-Invoked command in '/home/seonghwi/rgt_ws/build/rgt_solution' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /home/seonghwi/.local/bin/cmake /home/seonghwi/rgt_ws/src/rgt_solution -DCMAKE_INSTALL_PREFIX=/home/seonghwi/rgt_ws/install/rgt_solution

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/rgt_py/rgt_py.egg-info/PKG-INFO
+../../build/rgt_py/rgt_py.egg-info/SOURCES.txt
+../../build/rgt_py/rgt_py.egg-info/dependency_links.txt
+../../build/rgt_py/rgt_py.egg-info/entry_points.txt
+../../build/rgt_py/rgt_py.egg-info/requires.txt
+../../build/rgt_py/rgt_py.egg-info/top_level.txt
+../../build/rgt_py/rgt_py.egg-info/zip-safe
+resource/rgt_py
+rgt_py/__init__.py
+rgt_py/py_pub.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
